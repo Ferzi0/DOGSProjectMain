@@ -1,7 +1,9 @@
-import Image from "next/image";
+import { Header } from "../../widgets/header.js";
 
 export default function Home() {
   return (
-    <div></div>
+    <div>
+      <Header/>
+    </div>
   );
 }
