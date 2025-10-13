@@ -15,7 +15,7 @@ export const Title = ({children}) =>{
 }
 
 export const Link = ({children, link}) => {
-    return <a href={link}>{children}</a>
+    return <a href={link} className="text-white text -md font-[Montserrat] font-semibold">{children}</a>
 }
 
 export const Logo = () => {
