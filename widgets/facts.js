@@ -16,8 +16,8 @@ const facts = [
     {title:" Интеллект взрослой собаки примерно равен уровню развития студента 4 курса."},
 ];
 
-const pos = 'Здорово!';
-const neg = 'НеКруто!';
+const pos = {title: 'Здорово!'};
+const neg = {title: 'НеКруто!'};
 
 
 export const Facts = () => {
@@ -32,7 +32,7 @@ export const Facts = () => {
                     })}
                 </ol>
             </div>
-            <Button children="Здорово!"></Button>
+            <Button children={button.title} func={()=>button === pos ? setButton(neg) : setButton(pos)}/>
         </div>
-    )
-}
+    );
+};
