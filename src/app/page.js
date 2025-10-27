@@ -4,6 +4,7 @@ import { About } from "../../widgets/about.js";
 import { MainScreen } from "../../widgets/main-screen.js";
 import { Facts } from "../../widgets/facts.js";
 import { Breeds } from "../../widgets/breeds.js";
+import { TakeDog } from "../../widgets/takedog.js";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <About/>
       <Facts/>
       <Breeds/>
+      <TakeDog/>
       <Footer/>
     </div>
   );
